@@ -229,11 +229,93 @@
             color: #354463;
             
         }
-        @media all and (max-width: 1024px) and (min-width: 640px) {
+        .take_action_today_main{
+            background-image: url('images/Did you know background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 64px 32px 32px 32px;
+        }
+    .tatm_heading{
+        text-align: left;
+        font-size: 32px;
+        font-family: 'flood-std';
+        color: #FFFFFF;
+        width: 60%;
+    }
+    .tatm_btn{
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+        text-align: center;
+        font: normal normal bold 16px/20px Helvetica;
+        padding:15px;
+        width: 152px;
+        color: #354463;
+    }
+    
+    .tatm_whiteboard{
+        background-color: white;
+        padding: 0 30px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .tatm_whiteboard_upper{
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        font: normal normal normal 14px/17px Helvetica;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        align-self: center;
+        margin-top: -25px;
+        padding:15px 15px;
+    }
+   
+    .tatm_whiteboard_left{
+        padding-top: 20px;
+
+    }
+    .tatm_whiteboard_left span{
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;   
+        color: #354463; 
+    }
+    .tatm_whiteboard_left p{
+        color: #354463; 
+        font-size: 16px;
+        font-family: Helvetica;
+        margin-top: 10px;
+    }
+    
+    .twitter,.fb{
+        background:  #C1F7D5 0% 0% no-repeat padding-box;
+        width: 32px;
+        height: 32px;
+        border-radius: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+        margin:5px;
+    }
+    .next_elements{
+        margin-top: 20px;
+    }
+
+    @media all and (max-width: 1024px) and (min-width: 640px) {
             .header_div {
                 flex-direction: row;
                 padding: 20px 64px;
                 justify-content: space-between;
+            }
+            .next_elements{
+                margin-top: 40px;
             }
             .green {
                 width: 44%;
@@ -260,6 +342,7 @@
                 justify-content: center;
                 align-self: center;
             }
+            
             .btn_row {
                 background-color: #C1F7D5;
                 color: #354463;
@@ -363,6 +446,38 @@
                 bottom: 80px;
                 left: 200px;
             }
+            .take_action_today_main{
+                flex-direction: row;
+                padding: 32px 64px;
+            }
+            .tatm_whiteboard{
+                width: 200px
+               
+            }
+            .all_wb{
+                display: flex;
+                flex-direction: column;
+                margin-top: 64px;
+            }
+            .tatm_heading{
+                font-size: 44px;
+                width: 30%;
+                margin-top: -350px;
+            }
+            .tatm_btn{
+                background: #C1F7D5 0% 0% no-repeat padding-box;
+                border-radius: 100px;
+                opacity: 1;
+                text-align: center;
+                font: normal normal bold 16px/20px Helvetica;
+                padding:15px;
+                width: 152px;
+                color: #354463;
+            }
+            .tatm_whiteboard_upper{
+                align-self: flex-start;
+            }
+            
 
         }
         
@@ -548,5 +663,37 @@
                 padding: 8px 20px;
                 cursor: pointer;
                 margin-left: 20px;
+            }
+            .take_action_today_main{
+                flex-direction: row;
+                padding: 32px 100px;
+            }
+            .tatm_whiteboard{
+                margin-top: 64px;
+                padding: 0 64px;
+                height: 200px;
+
+            }
+            .tatm_heading{
+                font-size: 54px;
+                margin-top: -500px;
+            }
+            .tatm_btn{
+                background: #C1F7D5 0% 0% no-repeat padding-box;
+                border-radius: 100px;
+                opacity: 1;
+                text-align: center;
+                font: normal normal bold 16px/20px Helvetica;
+                padding:15px;
+                width: 152px;
+                color: #354463;
+            }
+            .tatm_whiteboard_upper{
+                align-self: flex-start;
+            }
+            .all_wb{
+                display: flex;
+                flex-direction: column;
+                margin-top: 64px;
             }
         }
