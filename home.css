@@ -371,6 +371,7 @@
         color: #354463;  
         padding: 15px 10px;
         margin-top: 40px;
+        align-self: flex-start;
     }
     
     @media all and (max-width: 1024px) and (min-width: 640px) {
@@ -544,30 +545,37 @@
             }
             .stories{
                 display: flex;
-                flex-direction: row-reverse;
                 align-items: center;
                 padding: 32px 64px;
             }
-            /* .stories_back{
-                width: 180%;
-            } */
+            .stories_back{
+                width: 600px;
+                margin-top: 30px;
+                
+                
+            }
             .stories_btn{
-                margin-left: 0px;
+                margin-left: 50px;
                 width: 80px;
                 padding:8px 0;
-                margin-top: -20px;
+                margin-top: -15px;
+
+
             }
             .stories_para{
                 background: none;
                 background-color: #354463;
                 padding: 10px 64px 0;
                 text-align: center;
-                margin-top: 10px;
-                margin-right: -30px;
+                width:220px;
+                height: 180px;
+                margin-top: -120px;
+                align-self: flex-start;
+
             }
             .stories_para p{
                 text-align: center;
-                font: normal normal bold 16px/22px Helvetica;
+                font: normal normal bold 14px/18px Helvetica;
                 letter-spacing: 0px;
                 color: #FFFFFF;
                 opacity: 1;
@@ -576,7 +584,7 @@
                     margin-top:78px;
             }
             .s{
-                text-align: center;
+                text-align: left;
                 font: normal normal normal 11px/13px Helvetica;
                 letter-spacing: 0.44px;
                 color: #FFFFFF;
