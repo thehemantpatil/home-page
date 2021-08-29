@@ -829,9 +829,10 @@ height: 66px;
         display: flex;
         flex-direction: column;
         width: 100%;
+
     }
     .information_first_image img{
-        width: 80%;
+        width: 100%;
         height: 100%;
         align-self: flex-start;
         
@@ -862,15 +863,18 @@ height: 66px;
         color: #FFFFFF;
         width: 70%;
         padding: 0px 0 25px;
+        align-self: flex-start;
+        margin-left: 80px;
+        
 
     }
    
     .information_first_desc p{
-        text-align: center;
+        text-align: left;
         color: white; 
         font-size: 20px/32px;
         font-family: Helvetica;
-        padding-top: 40px;
+        margin-left: 50px;
         font: normal normal normal 18px/28px Helvetica;
   
         
@@ -884,7 +888,7 @@ height: 66px;
             letter-spacing: 0px;
             color: #354463;  
             padding: 10px 0px;
-            margin-top: 125px;
+            margin-left: 80px;
             align-self: flex-start;
 
     }
@@ -910,12 +914,13 @@ height: 66px;
     } */
     .information_first_info .hide_btn{
         visibility: visible;
-        align-self: flex-start;
         margin-top: 25px;
         position: relative;
-        left: 0px;
-        margin-left: 0px;
+        left:0px;
+        align-self: flex-start;
+        margin-left: 80px;
         color:#354463;
+
 
     }
      /* Subscribe section */
@@ -1303,7 +1308,7 @@ height: 66px;
         width: 100%;
     }
     .information_first_image img{
-        width: 80%;
+        width: 100%;
         height: 100%;
         align-self: flex-start;
         
@@ -1326,9 +1331,9 @@ height: 66px;
         padding: 10px 20px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         position: absolute;
-    
         margin-top: -5px;
         right: -120px;
+        
         
       
     }
@@ -1339,6 +1344,9 @@ height: 66px;
         color: #FFFFFF;
         width: 70%;
         padding: 0px 0 25px;
+        width: 60%;
+        align-self: flex-start;
+        margin-left: 50px;
 
     }
     .information_first_desc p{
@@ -1346,8 +1354,9 @@ height: 66px;
         color: white; 
         font-size: 20px/32px;
         font-family: Helvetica;
-        padding-top: 40px;
+        align-self: flex-start;
         font: normal normal normal 18px/28px Helvetica;
+        margin-left: 50px;
   
         
     }
@@ -1360,8 +1369,9 @@ height: 66px;
             letter-spacing: 0px;
             color: #354463;  
             padding: 10px 0px;
-            margin-top: 125px;
             align-self: flex-start;
+            margin-top: 0px;
+            margin-left: 50px;
 
     }
     
@@ -1390,7 +1400,7 @@ height: 66px;
         margin-top: 25px;
         position: relative;
         left: 0px;
-        margin-left: 0px;
+        margin-left: 50px;
         color:#354463;
     }
      /* Subscribe section */
