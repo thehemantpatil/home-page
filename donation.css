@@ -30,7 +30,7 @@ header {
 }
 
 .image_class {
-    background-image: url('images/annie-spratt-427340-unsplash-\(1\).png');
+    background-image: url('images_mob/annie-spratt/annie-spratt-427340-unsplash-\(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Flood Std;
@@ -133,15 +133,25 @@ input:focus {
 @media all and (min-width:1024px) {
     .formdiv {
         width: 40%;
+        height: 180%;
+        padding-bottom: 20px;
+    }
+    .image_class {
+        background-image: url('images_desktop/annie-spratt/annie-spratt-427340-unsplash-\(1\).png');
+        background-repeat: no-repeat;
+        padding-top:128px;
+        padding-bottom:128px;
+        background-size: cover;
     }
     header {
         font-size: 28px;
+
     }
     .image_class {
         align-items: flex-start;
         display: flex;
         flex-direction: row-reverse;
-        padding-top: 32px;
+        padding-top: 64px;
         justify-content: space-between;
     }
     .slog {
